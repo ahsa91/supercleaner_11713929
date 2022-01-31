@@ -8,7 +8,7 @@ import timber.log.Timber.i
 class SuperCleanerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_supercleaner)
 
         Timber.plant(Timber.DebugTree())
 
