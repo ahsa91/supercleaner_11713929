@@ -1,9 +1,11 @@
-package ie.wit.supercleaner_11713929
+package ie.wit.supercleaner_11713929.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import ie.wit.supercleaner_11713929.R
+
 //splash screen code found @https://github.com/Spikeysanju/Pineberry-Splash-Screen-Android
 @Suppress("DEPRECATION")
 class SplashScreenActivity : AppCompatActivity() {
@@ -17,10 +19,10 @@ class SplashScreenActivity : AppCompatActivity() {
         handler.postDelayed({
 
             // Delay and Start Activity
-            val intent = Intent(this,SuperCleanerActivity::class.java)
+            val intent = Intent(this, SuperCleanerActivity::class.java)
             startActivity(intent)
             finish()
-        } , 1500) // here we're delaying to startActivity after 1.5 seconds
+        } , 800) // here we're delaying to startActivity after 800 milliseconds
 
     }
 }

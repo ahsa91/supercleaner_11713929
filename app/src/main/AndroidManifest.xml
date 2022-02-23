@@ -10,10 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Supercleaner_11713929">
         <activity
-            android:name=".SuperCleanerActivity"
+            android:name=".activities.AdminActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activities.CustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.VendorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Register"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SuperCleanerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>

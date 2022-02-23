@@ -1,7 +1,8 @@
-package ie.wit.supercleaner_11713929
+package ie.wit.supercleaner_11713929.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ie.wit.supercleaner_11713929.R
 import timber.log.Timber
 import timber.log.Timber.i
 
